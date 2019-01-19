@@ -1,3 +1,8 @@
-# file: ~/.gitignore_global
+.idea/**
+*.iml
 .DS_Store
-.idea
+/Cache/*
+*.bkp
+/node_modules/*
+package-lock.json
+yarn.lock

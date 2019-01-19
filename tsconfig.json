@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "es2015",
+      "es5",
+      "es6",
+      "es7"
+    ],
+    "importHelpers": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": true
+
+
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "transpileOnly": false,
+    "useBabel": true,
+    "useCache": true,
+    "cacheDirectory": "./node_modules/.cache/awesome-typescript-loader",
+    "useTranspileModule": true
+  }
+}
